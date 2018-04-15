@@ -7,17 +7,32 @@
     "test": "jest"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "eslintrc": "^1.0.6",
+    "firebase": "^4.12.1",
+    "global": "^4.3.2",
     "react": "^16.3.0-alpha.1",
     "react-native": "0.54.2",
     "react-native-router-flux": "^4.0.0-beta.28",
+    "react-navigation": "^1.5.11",
     "react-redux": "^5.0.7",
     "redux": "^3.7.2"
   },
   "devDependencies": {
-    "babel-jest": "22.4.1",
+    "babel-eslint": "^8.2.2",
+    "babel-jest": "22.4.3",
+    "babel-plugin-module-resolver": "^3.1.1",
     "babel-preset-react-native": "4.0.0",
-    "jest": "22.4.2",
-    "react-test-renderer": "^16.3.0-alpha.1"
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-import-resolver-babel-module": "^4.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "eslint-plugin-react-native": "^3.2.1",
+    "jest": "22.4.3",
+    "react-test-renderer": "16.3.1",
+    "reactotron-react-native": "^1.14.0"
   },
   "jest": {
     "preset": "react-native"

@@ -5,6 +5,7 @@
  */
 
 import React from 'react';
+import {StackNavigator, TabNavigator} from 'react-navigation';
 import { Router, Scene, Stack } from 'react-native-router-flux';
 
 import FormLogin from './components/FormLogin';
@@ -13,7 +14,7 @@ import FormCadastro from './components/FormCadastro';
 export default props => (
   <Router>
 		<Stack key="root">
-			<Scene key='FormLogin' component={FormLogin} title='Login' />
+			<Scene key='FormLogin' component={FormLogin} title='Login' hideNavBar={true} />
 			<Scene key='FormCadastro' component={FormCadastro} title='Cadastro' />
 		</Stack>
 	</Router>
