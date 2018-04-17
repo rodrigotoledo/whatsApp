@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "color": "^3.0.0",
     "eslintrc": "^1.0.6",
     "firebase": "^4.12.1",
     "global": "^4.3.2",

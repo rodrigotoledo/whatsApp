@@ -8,8 +8,8 @@ import React from 'react';
 import {StackNavigator, TabNavigator} from 'react-navigation';
 import { Router, Scene, Stack } from 'react-native-router-flux';
 
-import FormLogin from './components/FormLogin';
-import FormCadastro from './components/FormCadastro';
+import FormLogin from './components/login';
+import FormCadastro from './components/cadastro';
 
 export default props => (
   <Router>

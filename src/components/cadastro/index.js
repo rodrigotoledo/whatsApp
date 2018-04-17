@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, TextInput, Button } from "react-native";
 import { connect } from "react-redux";
+import styles from "./styles";
 
 
 const FormCadastro = props => {
